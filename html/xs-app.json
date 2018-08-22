@@ -4,13 +4,13 @@
   "routes": [{
     "source": "/xsjs/(.*)(.xsjs)",
     "destination": "movielens_api",
-    "csrfProtection": true,
+    "csrfProtection": false,
     "authenticationType": "xsuaa",
     "scope": "$XSAPPNAME.USER"
   }, {
     "source": "/xsodata/(.*)(.xsodata)",
     "destination": "movielens_api",
-    "csrfProtection": true,
+    "csrfProtection": false,
     "authenticationType": "xsuaa",
     "scope": "$XSAPPNAME.USER"
   }, {
